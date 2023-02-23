@@ -7,25 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D081BFF2990963A005CF49D /* TestInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D081BFE2990963A005CF49D /* TestInstructionsViewController.swift */; };
+		3D081C0129909675005CF49D /* BeaconDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D081C0029909675005CF49D /* BeaconDetailsViewController.swift */; };
+		3D081C06299102BA005CF49D /* CalibrationTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D081C05299102BA005CF49D /* CalibrationTestViewController.swift */; };
+		3D221E1D29A76DFE00098476 /* DistanceAccuracyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D221E1C29A76DFE00098476 /* DistanceAccuracyTestViewController.swift */; };
+		3D221E1F29A770E100098476 /* DistanceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D221E1E29A770E100098476 /* DistanceChart.swift */; };
+		3D221E2129A770EB00098476 /* DistanceChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D221E2029A770EB00098476 /* DistanceChartViewController.swift */; };
+		3D5D2F4529A715C0009C0E75 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D2F4429A715C0009C0E75 /* ChartsViewController.swift */; };
+		3D5D2F4729A715FE009C0E75 /* RSSIChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D2F4629A715FE009C0E75 /* RSSIChart.swift */; };
+		3D7F9EF1299737FC002E4AB6 /* BLEScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F9EF0299737FC002E4AB6 /* BLEScanViewController.swift */; };
+		3D7F9EF529989BE9002E4AB6 /* SwiftCSVExport in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7F9EF429989BE9002E4AB6 /* SwiftCSVExport */; };
+		3D7F9EF72998B9EA002E4AB6 /* DistanceVSRSSITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F9EF62998B9EA002E4AB6 /* DistanceVSRSSITestViewController.swift */; };
 		3D9CD290298F4EC400426A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD28F298F4EC400426A15 /* AppDelegate.swift */; };
 		3D9CD292298F4EC400426A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD291298F4EC400426A15 /* SceneDelegate.swift */; };
-		3D9CD294298F4EC400426A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD293298F4EC400426A15 /* ViewController.swift */; };
 		3D9CD297298F4EC400426A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD295298F4EC400426A15 /* Main.storyboard */; };
 		3D9CD29A298F4EC400426A15 /* BLE_Tool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD298298F4EC400426A15 /* BLE_Tool.xcdatamodeld */; };
 		3D9CD29C298F4EC500426A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD29B298F4EC500426A15 /* Assets.xcassets */; };
 		3D9CD29F298F4EC500426A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CD29D298F4EC500426A15 /* LaunchScreen.storyboard */; };
+		3D9CD2A9298F51EC00426A15 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD2A8298F51EC00426A15 /* HomeTableViewController.swift */; };
+		3D9CD2AD298F557E00426A15 /* BeaconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CD2AC298F557E00426A15 /* BeaconTableViewCell.swift */; };
+		3DCA3E77298FB9B400AF6C6B /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA3E76298FB9B400AF6C6B /* OptionsViewController.swift */; };
+		3DCA3E79298FB9FF00AF6C6B /* OptionsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA3E78298FB9FF00AF6C6B /* OptionsEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D081BFE2990963A005CF49D /* TestInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInstructionsViewController.swift; sourceTree = "<group>"; };
+		3D081C0029909675005CF49D /* BeaconDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDetailsViewController.swift; sourceTree = "<group>"; };
+		3D081C05299102BA005CF49D /* CalibrationTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationTestViewController.swift; sourceTree = "<group>"; };
+		3D221E1C29A76DFE00098476 /* DistanceAccuracyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceAccuracyTestViewController.swift; sourceTree = "<group>"; };
+		3D221E1E29A770E100098476 /* DistanceChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceChart.swift; sourceTree = "<group>"; };
+		3D221E2029A770EB00098476 /* DistanceChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceChartViewController.swift; sourceTree = "<group>"; };
+		3D5D2F4429A715C0009C0E75 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		3D5D2F4629A715FE009C0E75 /* RSSIChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSIChart.swift; sourceTree = "<group>"; };
+		3D7F9EF0299737FC002E4AB6 /* BLEScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScanViewController.swift; sourceTree = "<group>"; };
+		3D7F9EF62998B9EA002E4AB6 /* DistanceVSRSSITestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceVSRSSITestViewController.swift; sourceTree = "<group>"; };
 		3D9CD28C298F4EC400426A15 /* BLE Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9CD28F298F4EC400426A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9CD291298F4EC400426A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D9CD293298F4EC400426A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D9CD296298F4EC400426A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9CD299298F4EC400426A15 /* BLE_Tool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLE_Tool.xcdatamodel; sourceTree = "<group>"; };
 		3D9CD29B298F4EC500426A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9CD29E298F4EC500426A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9CD2A0298F4EC500426A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9CD2A8298F51EC00426A15 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		3D9CD2AC298F557E00426A15 /* BeaconTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconTableViewCell.swift; sourceTree = "<group>"; };
+		3DCA3E76298FB9B400AF6C6B /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		3DCA3E78298FB9FF00AF6C6B /* OptionsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +60,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7F9EF529989BE9002E4AB6 /* SwiftCSVExport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D7F9EF229989058002E4AB6 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				3D081C05299102BA005CF49D /* CalibrationTestViewController.swift */,
+				3D5D2F4429A715C0009C0E75 /* ChartsViewController.swift */,
+				3D5D2F4629A715FE009C0E75 /* RSSIChart.swift */,
+				3D221E1E29A770E100098476 /* DistanceChart.swift */,
+				3D221E2029A770EB00098476 /* DistanceChartViewController.swift */,
+				3D7F9EF62998B9EA002E4AB6 /* DistanceVSRSSITestViewController.swift */,
+				3D221E1C29A76DFE00098476 /* DistanceAccuracyTestViewController.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
 		3D9CD283298F4EC400426A15 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +100,17 @@
 		3D9CD28E298F4EC400426A15 /* BLE Tool */ = {
 			isa = PBXGroup;
 			children = (
+				3D7F9EF229989058002E4AB6 /* Testing */,
 				3D9CD28F298F4EC400426A15 /* AppDelegate.swift */,
 				3D9CD291298F4EC400426A15 /* SceneDelegate.swift */,
-				3D9CD293298F4EC400426A15 /* ViewController.swift */,
 				3D9CD295298F4EC400426A15 /* Main.storyboard */,
+				3D7F9EF0299737FC002E4AB6 /* BLEScanViewController.swift */,
+				3D081C0029909675005CF49D /* BeaconDetailsViewController.swift */,
+				3DCA3E76298FB9B400AF6C6B /* OptionsViewController.swift */,
+				3D081BFE2990963A005CF49D /* TestInstructionsViewController.swift */,
+				3D9CD2AC298F557E00426A15 /* BeaconTableViewCell.swift */,
+				3D9CD2A8298F51EC00426A15 /* HomeTableViewController.swift */,
+				3DCA3E78298FB9FF00AF6C6B /* OptionsEnums.swift */,
 				3D9CD29B298F4EC500426A15 /* Assets.xcassets */,
 				3D9CD29D298F4EC500426A15 /* LaunchScreen.storyboard */,
 				3D9CD2A0298F4EC500426A15 /* Info.plist */,
@@ -86,6 +135,9 @@
 			dependencies = (
 			);
 			name = "BLE Tool";
+			packageProductDependencies = (
+				3D7F9EF429989BE9002E4AB6 /* SwiftCSVExport */,
+			);
 			productName = "BLE Tool";
 			productReference = 3D9CD28C298F4EC400426A15 /* BLE Tool.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 3D9CD283298F4EC400426A15;
+			packageReferences = (
+				3D7F9EF329989BE9002E4AB6 /* XCRemoteSwiftPackageReference "SwiftCSVExport" */,
+			);
 			productRefGroup = 3D9CD28D298F4EC400426A15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +196,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9CD294298F4EC400426A15 /* ViewController.swift in Sources */,
+				3D5D2F4529A715C0009C0E75 /* ChartsViewController.swift in Sources */,
+				3D081C0129909675005CF49D /* BeaconDetailsViewController.swift in Sources */,
+				3D7F9EF1299737FC002E4AB6 /* BLEScanViewController.swift in Sources */,
+				3D9CD2AD298F557E00426A15 /* BeaconTableViewCell.swift in Sources */,
+				3D5D2F4729A715FE009C0E75 /* RSSIChart.swift in Sources */,
 				3D9CD29A298F4EC400426A15 /* BLE_Tool.xcdatamodeld in Sources */,
+				3DCA3E77298FB9B400AF6C6B /* OptionsViewController.swift in Sources */,
+				3D7F9EF72998B9EA002E4AB6 /* DistanceVSRSSITestViewController.swift in Sources */,
+				3D081BFF2990963A005CF49D /* TestInstructionsViewController.swift in Sources */,
+				3DCA3E79298FB9FF00AF6C6B /* OptionsEnums.swift in Sources */,
 				3D9CD290298F4EC400426A15 /* AppDelegate.swift in Sources */,
+				3D221E1F29A770E100098476 /* DistanceChart.swift in Sources */,
+				3D081C06299102BA005CF49D /* CalibrationTestViewController.swift in Sources */,
 				3D9CD292298F4EC400426A15 /* SceneDelegate.swift in Sources */,
+				3D221E1D29A76DFE00098476 /* DistanceAccuracyTestViewController.swift in Sources */,
+				3D221E2129A770EB00098476 /* DistanceChartViewController.swift in Sources */,
+				3D9CD2A9298F51EC00426A15 /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +367,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +396,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +432,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D7F9EF329989BE9002E4AB6 /* XCRemoteSwiftPackageReference "SwiftCSVExport" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vigneshuvi/SwiftCSVExport.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D7F9EF429989BE9002E4AB6 /* SwiftCSVExport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D7F9EF329989BE9002E4AB6 /* XCRemoteSwiftPackageReference "SwiftCSVExport" */;
+			productName = SwiftCSVExport;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3D9CD298298F4EC400426A15 /* BLE_Tool.xcdatamodeld */ = {
